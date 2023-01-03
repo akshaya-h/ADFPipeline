@@ -1,0 +1,16 @@
+{
+	"name": "SqlServerwindowsauth",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DESK00023\\SQL_DEV_2022;initial catalog=CDC;user id=sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiYzg5M2ZkMi1jMDk2LTQ0MmUtODdkYS04NmQwZDM0NzBiMzYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

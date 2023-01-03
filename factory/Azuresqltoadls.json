@@ -1,0 +1,9 @@
+{
+	"name": "Azuresqltoadls",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "aae19d3a-dd5a-492d-8f4c-aaebce26bf9e",
+		"tenantId": "6f35b842-6dd2-4e28-9c14-624323636888"
+	}
+}
